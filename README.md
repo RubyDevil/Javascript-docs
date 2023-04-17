@@ -1,22 +1,23 @@
-﻿​
-## VARIABLES
+​
+# VARIABLES
 JavaScript uses the keywords **`var`**, `let`, `const` to declare variables.
 > How to create variables: 
-> ```js
+> ~~~js
 >  var x;
-> ```
+> ~~~
 > How to assign a value to variables:
-> ```js
+> ~~~js
 >  x = 5;
-> ```
+> ~~~
 > How to create and assign a value to a variable at the same time:
-> ```js
+> ~~~js*emphasized text*
 >  var x = 5;
-> ```
+> ~~~
 
 ---------------------------------------------------------------------------------------------
 
-## Operators - Math
+# Operators
+## Arithmetic
 | Operator | Description                   |
 |----------|-------------------------------|
 | +        | Addition                      |
@@ -28,8 +29,8 @@ JavaScript uses the keywords **`var`**, `let`, `const` to declare variables.
 | ++       | Increment                     |
 | --       | Decrement                     |
 
-## Operators - Assignment
-| Operator | Example | Same As    |
+## Assignment
+| Operator | Example |  Same As   |
 |----------|---------|------------|
 | =        | x = y   | x = y      |
 | +=       | x += y  | x = x + y  |
@@ -39,7 +40,7 @@ JavaScript uses the keywords **`var`**, `let`, `const` to declare variables.
 | %=       | x %= y  | x = x % y  |
 | **=      | x **= y | x = x ** y |
 
-## Operators - Comparison
+## Comparison
 | Operator | Description                        |
 |----------|------------------------------------|
 | ==       | equal to                           |
@@ -52,9 +53,8 @@ JavaScript uses the keywords **`var`**, `let`, `const` to declare variables.
 | <=       | less than or equal to              |
 | ?        | ternary operator                   |
 
-## Operators - Logical
+## Logical
 Logical operators are used to determine the logic between variables or values.
-Given that `x = 6` and `y = 3`, the table below explains the logical operators:
 | Operator | Description    |
 |----------|----------------|
 | &&       | logical *and*  |
@@ -63,7 +63,7 @@ Given that `x = 6` and `y = 3`, the table below explains the logical operators:
 
 ---------------------------------------------------------------------------------------------
 
-## Data Types
+# Data Types
 
 The main data types are:
 > - undefined
@@ -88,8 +88,10 @@ Examples:
  var today = new Date()  // date
 ```
 
+## Boolean
 Booleans can only have two values: `true` or `false`.
 ```js
  var kitaIsCute = true;
  var kitaIsMeaner = false;
 ```
+
