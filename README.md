@@ -1,4 +1,4 @@
-# VARIABLES
+# Variables
 JavaScript uses the keywords **`var`**, `let`, `const` to declare variables.
 > How to create variables: 
 > ~~~js
