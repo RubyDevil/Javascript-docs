@@ -16,49 +16,49 @@ JavaScript uses the keywords **`var`**, `let`, `const` to declare variables.
 
 
 # Operators
-## Arithmetic
-| Operator | Description                   |
-|----------|-------------------------------|
-| +        | Addition                      |
-| -        | Subtraction                   |
-| *        | Multiplication                |
-| **       | Exponentiation                |
-| /        | Division                      |
-| %        | Modulus (Division Remainder)  |
-| ++       | Increment                     |
-| --       | Decrement                     |
+> ## Arithmetic
+> | Operator | Description                   |
+> |----------|-------------------------------|
+> | +        | Addition                      |
+> | -        | Subtraction                   |
+> | *        | Multiplication                |
+> | **       | Exponentiation                |
+> | /        | Division                      |
+> | %        | Modulus (Division Remainder)  |
+> | ++       | Increment                     |
+> | --       | Decrement                     |
 
-## Assignment
-| Operator | Example |  Same As   |
-|----------|---------|------------|
-| =        | x = y   | x = y      |
-| +=       | x += y  | x = x + y  |
-| -=       | x -= y  | x = x - y  |
-| *=       | x *= y  | x = x * y  |
-| /=       | x /= y  | x = x / y  |
-| %=       | x %= y  | x = x % y  |
-| **=      | x **= y | x = x ** y |
+> ## Assignment
+> | Operator | Example |  Same As   |
+> |----------|---------|------------|
+> | =        | x = y   | x = y      |
+> | +=       | x += y  | x = x + y  |
+> | -=       | x -= y  | x = x - y  |
+> | *=       | x *= y  | x = x * y  |
+> | /=       | x /= y  | x = x / y  |
+> | %=       | x %= y  | x = x % y  |
+> | **=      | x **= y | x = x ** y |
 
-## Comparison
-| Operator | Description                        |
-|----------|------------------------------------|
-| ==       | equal to                           |
-| ===      | equal value and equal type         |
-| !=       | not equal                          |
-| !==      | not equal value or not equal type  |
-| >        | greater than                       |
-| <        | less than                          |
-| >=       | greater than or equal to           |
-| <=       | less than or equal to              |
-| ?        | ternary operator                   |
+> ## Comparison
+> | Operator | Description                        |
+> |----------|------------------------------------|
+> | ==       | equal to                           |
+> | ===      | equal value and equal type         |
+> | !=       | not equal                          |
+> | !==      | not equal value or not equal type  |
+> | >        | greater than                       |
+> | <        | less than                          |
+> | >=       | greater than or equal to           |
+> | <=       | less than or equal to              |
+> | ?        | ternary operator                   |
 
-## Logical
-Logical operators are used to determine the logic between variables or values.
-| Operator | Description    |
-|----------|----------------|
-| &&       | logical *and*  |
-| \|\|     | logical *or*   |
-| !        | logical *not*  |
+> ## Logical
+> Logical operators are used to determine the logic between variables or values.
+> | Operator | Description    |
+> |----------|----------------|
+> | &&       | logical *and*  |
+> | \|\|     | logical *or*   |
+> | !        | logical *not*  |
 
 
 # Data Types
