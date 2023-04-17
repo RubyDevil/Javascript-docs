@@ -14,7 +14,6 @@ JavaScript uses the keywords **`var`**, `let`, `const` to declare variables.
 >  var x = 5;
 > ~~~
 
----------------------------------------------------------------------------------------------
 
 # Operators
 ## Arithmetic
@@ -61,7 +60,6 @@ Logical operators are used to determine the logic between variables or values.
 | \|\|     | logical *or*   |
 | !        | logical *not*  |
 
----------------------------------------------------------------------------------------------
 
 # Data Types
 
