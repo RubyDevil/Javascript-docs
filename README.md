@@ -64,15 +64,15 @@ Logical operators are used to determine the logic between variables or values.
 # Data Types
 
 The main data types are:
-> - undefined
-> - null
-> - boolean
-> - number
-> - string
-> - object (3 kinds):
->      - object
->      - array
-> 		- date
+- undefined
+- null
+- boolean
+- number
+- string
+- object (3 kinds):
+	- object
+	- array
+	- date
 
 Examples:
 ```js
