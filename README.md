@@ -15,8 +15,7 @@ JavaScript uses the keywords **`var`**, `let`, `const` to declare variables.
 > ~~~
 
 
-# Operators
-> ## Arithmetic
+## Arithmetic
 | Operator | Description                   |
 |----------|-------------------------------|
 | +        | Addition                      |
@@ -28,7 +27,7 @@ JavaScript uses the keywords **`var`**, `let`, `const` to declare variables.
 | ++       | Increment                     |
 | --       | Decrement                     |
 
-> ## Assignment
+## Assignment
 | Operator | Example |  Same As   |
 |----------|---------|------------|
 | =        | x = y   | x = y      |
@@ -39,7 +38,7 @@ JavaScript uses the keywords **`var`**, `let`, `const` to declare variables.
 | %=       | x %= y  | x = x % y  |
 | **=      | x **= y | x = x ** y |
 
-> ## Comparison
+## Comparison
 | Operator | Description                        |
 |----------|------------------------------------|
 | ==       | equal to                           |
@@ -52,7 +51,7 @@ JavaScript uses the keywords **`var`**, `let`, `const` to declare variables.
 | <=       | less than or equal to              |
 | ?        | ternary operator                   |
 
-> ## Logical
+## Logical
 Logical operators are used to determine the logic between variables or values.
 | Operator | Description    |
 |----------|----------------|
@@ -64,8 +63,6 @@ Logical operators are used to determine the logic between variables or values.
 # Data Types
 
 The main data types are:
-- undefined
-- null
 - boolean
 - number
 - string
@@ -74,22 +71,37 @@ The main data types are:
 	- array
 	- date
 
-Examples:
-```js
- var food;               // undefined
- var students = null;    // null
- var kitaIsCute = true;  // boolean
- var money = 476;        // number
- var name = "Kita";      // string
- var pos = {x:2, y:3};   // object
- var numbers = [1,2,3];  // array
- var today = new Date()  // date
-```
-
-> ## Boolean
+## Boolean
 Booleans can only have two values: `true` or `false`.
 ```js
  var kitaIsCute = true;
  var kitaIsMeaner = false;
+```
+## Number
+Numbers can be written with or without decimals
+```js
+ var year = 2023;
+ var cash = 475.34;
+```
+## String
+Strings are for storing and manipulating text.
+They are written between quotation marks **`" "`**:
+```js
+ var looks = "She's very cute";
+```
+To find the length of a string, use the built-in `length` property:
+```js
+ var name = "Kita";
+ name.length			// 4
+ "Hello World".length	// 11
+```
+### Escape Characters
+Some special characters will be misinterpreted in the string:
+```js
+var text = "HTML is a "Programming" Language";
+```
+To avoid this from happening, you must use the backslash `\` before them:
+```js
+var text = "HTML is a \"Programming\" Language";
 ```
 
