@@ -1,4 +1,7 @@
-​
+<style>
+table { width: 50% };
+</style>
+
 # VARIABLES
 JavaScript uses the keywords **`var`**, `let`, `const` to declare variables.
 > How to create variables: 
